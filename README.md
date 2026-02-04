@@ -6,6 +6,8 @@ Se você estiver vedo este repositorio fique a vontade para usar este projeto co
 Email: Guilhermekretli23@gmail.com
 
 
+OBS: Abre a pasta do projeto no Visual Studio Code
+
 
 
 
