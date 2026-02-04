@@ -1,5 +1,5 @@
 Site de um banco (bancoExemplo) com integração ao firebase da google.
-Conta com: cadastro, login, senha eautenticação do firebase
+Conta com: cadastro, login, senha e autenticação do firebase
 
 Se você estiver vedo este reporitorio fique a vontade para usar este projeto como quiser, se for melhora-lo, me envie por email para eu poder atualizar o repositorio. 
 
