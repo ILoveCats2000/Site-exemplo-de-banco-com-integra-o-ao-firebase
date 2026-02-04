@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Área do Cliente - Banco Exemplo</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!--INICIO HEADER-->
+  <header>
+    <img src="BancoExemplo_logo.png" alt="Logo">
+    <div class="titulo">
+      <h1>Banco Exemplo</h1>
+      <p>Área do Cliente</p>
+    </div>
+  </header>
+
+      <nav>
+        <a href="Tela_login.html">Login</a>
+        <a href="index.html">Inicio</a>
+        <a href="Serviços.html">Serviços</a>
+        <a href="Cadastro.html">Cadastro</a>
+        <a href="#">Contato</a>
+        <a href="Cliente.html">Cliente</a>
+    </nav>
+    <!-- FIM DO HEADER -->
+  <main>
+    <section>
+      <h2>Bem-vindo, <span id="userEmail"></span></h2>
+      <p>Essa é a sua área do cliente.</p>
+
+      <button id="btnLogout">Sair</button>
+    </section>
+  </main>
+
+  <script type="module" src="firebaseConfig.js"></script>
+  <script type="module" src="Cliente.js"></script>
+</body>
+</html>

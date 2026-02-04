@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <header>
+        <img src="BancoExemplo_logo.png" alt="Logo">
+        <div class="titulo"> 
+            <h1>Banco Exemplo</h1>
+            <h2>Confiança e Segurança</h2>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h1>Redefinir Senha</h1>
+            <p>Digite o e-mail cadastrado para enviarmos um link para redefinir sua senha.</p>
+    
+            <input type="email" id="emailReset" placeholder="Seu e-mail"><br>
+            <button id="btnEnviar" class="btn">Enviar Link de redefinição</button>
+    
+            <div id="status" class="msg"></div>
+    
+            <p class="small"><a href="Tela_login.html">Voltar ao Login</a></p>
+        </section>
+    </main>
+
+        <script type="module">
+            import {auth} from "./firebaseConfig.js";
+            import { sendPasswordResetEmail } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js";
+
+            const bt
+        </script>
+</body>
+</html>
